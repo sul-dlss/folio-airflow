@@ -95,6 +95,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/symphony:/opt/airflow/symphony
     - ${AIRFLOW_PROJ_DIR:-.}/migration:/opt/airflow/migration
     - ${AIRFLOW_PROJ_DIR:-.}/circ:/opt/airflow/circ
+    - ${AIRFLOW_PROJ_DIR:-.}/exports:/opt/airflow/exports
     - ${AIRFLOW_PROJ_DIR:-.}/vendor-data:/opt/airflow/vendor-data
     - ${AIRFLOW_PROJ_DIR:-.}/vendor-keys:/opt/airflow/vendor-keys
     - ${AIRFLOW_PROJ_DIR:-.}/orafin-files:/opt/airflow/orafin-files
